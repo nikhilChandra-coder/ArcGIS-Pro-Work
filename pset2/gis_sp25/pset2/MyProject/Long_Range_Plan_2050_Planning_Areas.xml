@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Long Range Plan 2050 Planning Areas</title>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>PLANNING AREAS All Connections 2050 Long-Range Plan elements are available online at www.dvrpc.org/plan. The Plan has two primary documents:(1) The Connections 2050 Policy Manual (www.dvrpc.org/Products/21027) identifies the vision, goals, strategies, and a summary of the financial plan.(2) The Connections 2050 Process and Analysis Manual (www.dvrpc.org/Products/21028) provides a more detailed look at the Plan’s outreach, background information, analysis, and financial plan.Greater Philadelphia is a complex mosaic of 352 diverse cities, boroughs, and townships. The Connections 2045 Long-Range Plan characterizes each of the region’s municipalities as either a Core City, Developed Community, Growing Suburb, or Rural Area, as a means of categorizing the types of communities and defining the corresponding long-range planning policies most appropriate for each type. This categorization is shown on the Planning Areas and Centers dataset. Many municipalities have areas within their boundaries that fit the characteristics of more than one of these Planning Area types. Gloucester Township (in Camden County, New Jersey), for example, has neighborhoods that are fully developed, but it also has a significant number of undeveloped acres and forecasted population and employment growth more characteristic of a Growing Suburb. The intent of the Plan is to assign to each municipality the planning area type associated with the long-range planning policies that will be most beneficial to the entire community. While the Planning Areas and Centers map is a guide for policy direction at the regional scale, actual approaches should always be guided by local conditions.The region’s four Core Cities are Philadelphia, Trenton, Camden, and Chester. Targeted infrastructure investment, maintenance and rehabilitation, comprehensive neighborhood revitalization, and efforts focused on reinforcing a network of social and educational programs will help to rebuild and revitalize the region’s cities.Developed Communities are places that have already experienced most of their population and employment growth, and include inner ring communities adjacent to the Core Cities; railroad boroughs and trolley car communities; and mature suburban townships. Many of these communities are stable and thriving, offering affordable housing opportunities; access to transit; safe pedestrian and bicycling environments; and a strong community identity. Others, however, are experiencing population and employment losses; have deteriorating infrastructure systems; have aging resident populations living on limited incomes; and have stagnant or declining tax bases that cannot keep pace with rising service demands. Rehabilitation and maintenance of infrastructure systems and the housing stock, and local economic and community development can help to reinforce location advantages, while stabilizing neighborhoods and stemming decline.Growing Suburbs are communities that have a significant number of developable acres remaining and are experiencing or are forecast to experience significant population and/or employment growth. Key planning policies in these communities focus on the need to improve the form of development, reduce congestion, and mitigate the negative consequences of unmanaged growth, and include growth management and enhanced community design. Smart growth techniques that support a more concentrated development pattern (such as clustering, mixed uses, transit-oriented development, and transfer of development rights) can provide the critical mass necessary to support new transit services and other alternatives to the automobile. The quality of design and architectural character of the built environment, open space preservation, and the creation of an integrated system of open space and recreation are all priorities in these communities.Rural Areas include the region’s agricultural communities and communities with large remaining natural areas. Key policy approaches for these communities focus on preservation and limiting development, and include limited expansion of infrastructure systems, preservation of a rural lifestyle and village character, support for continued farming, and enhanced natural resource protection. Livable communities in these areas include rural centers that have an identi fi able main street, a mix of uses, higher densities than their surrounding uses, and a true sense of place. </abstract>
+            <purpose>Connections 2050 planning areas</purpose>
+        </descript>
+        <spdom>
+            <bounding>
+                <westbc>-76.1513394199721</westbc>
+                <eastbc>-74.3814847566087</eastbc>
+                <northbc>40.6087341927012</northbc>
+                <southbc>39.5093615705428</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>DVRPC</themekey>
+                <themekey>2050</themekey>
+                <themekey>long-range plan</themekey>
+                <themekey>planning</themekey>
+                <themekey>planning areas</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>https://catalog.dvrpc.org/dvrpc_data_license.html</useconst>
+        <datacred>Delaware Valley Regional Planning Commission (DVRPC)</datacred>
+    </idinfo>
+    <metainfo>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
