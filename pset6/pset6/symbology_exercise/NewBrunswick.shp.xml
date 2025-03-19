@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>New Jersey Office of Information Technology (NJOIT) - Office of Geographic Information Systems (OGIS)</origin>
+				<pubdate>20080520</pubdate>
+				<title>Municipalities of New Jersey, New Jersey State Plane NAD83</title>
+				<geoform>vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Trenton, NJ</pubplace>
+					<publish>NJ Office of Information Technology (NJOIT), Office of Geographic Information Systems (OGIS)</publish>
+				</pubinfo>
+				<onlink>http://njgin.state.nj.us/oit/gis/download/nj_boundaries.mdb</onlink>
+				<ftname Sync="TRUE">stmun_2008</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>This data set is a spatial representation of municipalities in New Jersey.  Spatial accuracy was improved upon from earlier municipalities data by integrating features that are coincident with municipal boundaries from other high quality source data sets.  This data set is temporally accurate to May 2008.  An update is anticipated in July 2009 with the concurrent release of a seamless parcel data set for 19 of 21 counties in New Jersey.</abstract>
+			<purpose>To provide basic jurisdictional information.  This data set was developed to produce the most accurate delineation of municipal boundaries achievable from existing data sources.</purpose>
+			<supplinf>Spatially referenced data were derived from the following GIS layers to build municipal boundary lines.  They include:
+Delaware Geological Survey - New Jersey/Delaware boundary data
+New Jersey Department of Agriculture, State Agricultural Development Committee, Farmland Preservation Program - preserved farmland boundary data from property surveys
+New Jersey Department of Environmental Protection, Green Acres Program - open space boundary data from property surveys
+New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - New Jersey/New York boundary data for Ellis Island
+New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - hydro (stream) centerline data
+New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - land use/landcover data
+New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - municipal boundaries data from US Geological Survey topographic maps
+New Jersey Department of Environmental Protection, New Jersey Geological Survey - New Jersey/New York boundary data for the northern border of New Jersey, and New Jersey/New York boundary data through Shooters Island off the shoreline of Bayonne
+New Jersey Department of Transportation - road centerline data
+New Jersey Office of Information Technology, Office of Geographic Information Systems - New Jersey/Pennsylvania boundary data, and river and bay outlet data
+Various county or municipal agencies - State-certified digital tax map data and digital parcel data</supplinf>
+			<langdata>en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20080520</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>
+-75.587324</westbc>
+				<eastbc>
+-73.890300</eastbc>
+				<northbc>
+41.358658</northbc>
+				<southbc>
+38.897170</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">193684.745025</leftbc><rightbc Sync="TRUE">657059.678181</rightbc><bottombc Sync="TRUE">34945.754154</bottombc><topbc Sync="TRUE">919549.443276</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>NJGIN</themekt>
+				<themekey>njfw_boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>municipal</themekey>
+				<themekey>municipality</themekey>
+				<themekey>municipalities</themekey>
+				<themekey>village</themekey>
+				<themekey>borough</themekey>
+				<themekey>town</themekey>
+				<themekey>township</themekey>
+				<themekey>city</themekey>
+				<themekey>county</themekey>
+				<themekey>counties</themekey>
+				<themekey>boundary</themekey><themekey>boundaries</themekey></theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>New Jersey</placekey>
+				<placekey>NJ</placekey>
+				<placekey>Atlantic County</placekey>
+				<placekey>Bergen County</placekey>
+				<placekey>Burlington County</placekey>
+				<placekey>Camden County</placekey>
+				<placekey>Cape May County</placekey>
+				<placekey>Cumberland County</placekey>
+				<placekey>Essex County</placekey>
+				<placekey>Gloucester County</placekey>
+				<placekey>Hudson County</placekey>
+				<placekey>Hunterdon County</placekey>
+				<placekey>Mercer County</placekey>
+				<placekey>Middlesex County</placekey>
+				<placekey>Monmouth County</placekey>
+				<placekey>Morris County</placekey>
+				<placekey>Ocean County</placekey>
+				<placekey>Passaic County</placekey>
+				<placekey>Salem County</placekey>
+				<placekey>Somerset County</placekey>
+				<placekey>Sussex County</placekey>
+				<placekey>Union County</placekey>
+				<placekey>Warren County</placekey>
+				<placekey>USA</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>This data set is not a survey document and should not be used as such.  These polygons do not represent legal boundaries.
+
+Acknowledgement of the data set provider, New Jersey Office of Information Technology, Office of Geographic Information Systems (NJOIT - OGIS), would be appreciated for maps, data or other products derived from this data set.
+
+For all data contained herein, New Jersey Office of Information Technology (NJOIT) - Office of Geographic Information Systems (OGIS) makes no representations of any kind, including, but not limited to, the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the digital data layers furnished hereunder.  New Jersey Office of Information Technology (NJOIT) - Office of Geographic Information Systems (OGIS) assumes no responsibility to maintain them in any manner or form.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>New Jersey Office of Information Technology (NJOIT) - Office of Geographic Information Systems (OGIS)</cntorg>
+					<cntper>Douglas M. Schleifer</cntper>
+				</cntorgp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>PO Box 212</address>
+					<city>Trenton</city>
+					<state>NJ</state>
+					<postal>08625-0212</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(609) 984-7544</cntvoice>
+				<cntfax>(609) 633-0400</cntfax>
+				<cntemail>doug.schleifer@oit.state.nj.us</cntemail>
+				<hours>9-4</hours>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Delaware Geological Survey - New Jersey/Delaware boundary data
+New Jersey Department of Agriculture, State Agricultural Development Committee, Farmland Preservation Program - preserved farmland boundary data from property surveys
+New Jersey Department of Environmental Protection, Green Acres Program - open space boundary data from property surveys
+New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - New Jersey/New York boundary data for Ellis Island
+New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - hydro (stream) centerline data
+New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - land use/landcover data
+New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - municipal boundaries data from US Geological Survey topographic maps
+New Jersey Department of Environmental Protection, New Jersey Geological Survey - New Jersey/New York boundary data for the northern border of New Jersey, and New Jersey/New York boundary data through Shooters Island off the shoreline of Bayonne
+New Jersey Department of Transportation - road centerline data
+New Jersey Office of Information Technology, Office of Geographic Information Systems - New Jersey/Pennsylvania boundary data, and river and bay outlet data
+Various county or municipal agencies - State-certified digital tax map data and digital parcel data</datacred>
+		<secinfo>
+			<secsys>NJGIN</secsys>
+			<secclass>public</secclass>
+			<sechandl>no special handling required</sechandl>
+		</secinfo>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.4.1420</native>
+		<natvform>Personal Geodatabase Feature Class</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Values in the MUN_CODE field were populated based on the NJ1040 codes.  The ACRES and SQ_MILES fields were recalculated based on SHAPE_AREA.  In addition, POPDEN2000, POPDEN1990, and POPDEN1980 were recalculated based on the updated number of square miles in the SQ_MILES field.  All municipal name changes are current to January 2008.  Attributes for Geographical Naming Information System (GNIS) codes and names were thoroughly reviewed in collaboration with Bureau of Geographic Names - US Geological Survey and US Census Bureau representatives.  No formal accuracy testing was performed to qualify or validate attribute data.  All other attribute information was carried over from the most current NJDEP municipality boundaries (stmun) layer and is assumed correct.</attraccr>
+		</attracc>
+		<logic>Polygons were built from the NJOIT-OGIS Municipal Boundaries of New Jersey (nj_munis_arcs) line layer using the default cluster tolerance of 0.003 US survey feet.  Municipalities with multiple disconnected areas were created as multi-part polygons.
+
+A spatial join was created with the centroids of the NJDEP municipality boundaries (stmun) layer as a quality control check.  An examination of the attribute table ensured that each polygon contained a single centroid and any errors were resolved.  A topology rule set was also built to ensure there were no gores (gaps) or overlaps between polygons.</logic>
+		<complete>Complete</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Horizontal positional accuracy used to generate municipal boundaries varies by source data.  No formal horizontal positional accuracy testing was performed to qualify or validate these data.  Data were visually inspected.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>New Jersey Department of Environmental Protection (NJDEP), Office of Information Resources Management (OIRM), Bureau of Geographic Information Systems (BGIS)</origin>
+						<pubdate>200606</pubdate>
+						<title>NJDEP 2002 Streams Update for New Jersey (DRAFTS)</title>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Trenton, NJ</pubplace>
+							<publish>New Jersey Department of Environmental Protection (NJDEP), Office of Information Resources Management (OIRM), Bureau of Geographic Information Systems (BGIS)</publish>
+						</pubinfo>
+						<onlink>http://www.nj.gov/dep/gis/hydro02shp.html</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>2400</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2002</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>hydro</srccitea>
+				<srccontr>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems hydro (stream) centerline data.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>New Jersey Department of Transportation (NJDOT), Geographic Information Systems (GIS)</origin>
+						<pubdate>20070423</pubdate>
+						<title>NJ_Roadway_Network</title>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Trenton, NJ</pubplace>
+							<publish>New Jersey Department of Transportation (NJDOT), Geographic Information Systems (GIS)</publish>
+						</pubinfo>
+						<onlink>http://www.nj.gov/transportation/gis/data.shtm</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>2400</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2006</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>roads</srccitea>
+				<srccontr>New Jersey Department of Transportation road centerline data.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>NJDEP Green Acres Program</origin>
+						<pubdate>200610</pubdate>
+						<title>Green Acres Open Space</title>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Trenton, NJ</pubplace>
+							<publish>NJDEP Green Acres Program</publish>
+						</pubinfo>
+						<onlink>none</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>unknown</srcscale>
+				<typesrc>electronic mail system</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2006</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>greenacres</srccitea>
+				<srccontr>New Jersey Department of Environmental Protection, Green Acres Program open space boundary data from property surveys.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>NJ Department of Agriculture SADC Preserved Farmland Program</origin>
+						<pubdate>200705</pubdate>
+						<title>SADC Preserved Farmland</title>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Trenton, NJ</pubplace>
+							<publish>NJ Department of Agriculture SADC Preserved Farmland Program</publish>
+						</pubinfo>
+						<onlink>none</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>unknown</srcscale>
+				<typesrc>electronic mail system</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>200705</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>SADC</srccitea>
+				<srccontr>New Jersey Department of Agriculture, State Agricultural Development Committee, Farmland Preservation Program preserved farmland boundary data from property surveys.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>New Jersey Department of Environmental Protection (NJDEP), Office of Information Resources Management (OIRM), Bureau of Geographic Information Systems (BGIS)</origin>
+						<pubdate>20070206</pubdate>
+						<title>2002 Landuse/Landcover by Watershed Management Area (WMA)</title>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Trenton, NJ</pubplace>
+							<publish>New Jersey Department of Environmental Protection (NJDEP), Office of Information Resources Management (OIRM), Bureau of Geographic Information Systems (BGIS)</publish>
+						</pubinfo>
+						<onlink>http://www.nj.gov/dep/gis/lulc02shp.html</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>12000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2002</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>LULC</srccitea>
+				<srccontr>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems land use/landcover data.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>New Jersey Department of Environmental Protection, New Jersey Geological Survey</origin>
+						<pubdate>2007</pubdate>
+						<title>New Jersey Department of Environmental Protection, New Jersey Geological Survey New Jersey/New York boundary data</title>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>West Trenton, NJ</pubplace>
+							<publish>New Jersey Department of Environmental Protection, New Jersey Geological Survey</publish>
+						</pubinfo>
+						<onlink>none</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>unknown</srcscale>
+				<typesrc>electronic mail system</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2007</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>NJGS</srccitea>
+				<srccontr>New Jersey Department of Environmental Protection, New Jersey Geological Survey data of the New Jersey/New York boundary for the northern border of New Jersey from boundary marker survey points, or the New Jersey/New York boundary through Shooters Island off the shoreline of Bayonne from turning points through the Kill Van Kull.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Delaware Geological Survey</origin>
+						<pubdate>200401</pubdate>
+						<title>2002 Delaware State Outline (line)</title>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Newark, DE</pubplace>
+							<publish>Delaware Geological Survey</publish>
+						</pubinfo>
+						<onlink>http://www.state.de.us/planning/info/outline.htm</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>unknown</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1935</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>DGS</srccitea>
+				<srccontr>Delaware Geological Survey New Jersey/Delaware boundary delineated from descriptions in a 1934-1935 Court Decree of the US Supreme Court.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>NJ Department of Environmental Protection (NJDEP), Office of Information Resources Management (OIRM), Bureau of Geographic Information Systems (BGIS)</origin>
+						<pubdate>1999</pubdate>
+						<title>Ellis Island: New Jersey/New York Jurisdictional Boundary Line</title>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Trenton, NJ</pubplace>
+							<publish>NJ Department of Environmental Protection (NJDEP), Office of Information Resources Management (OIRM), Bureau of Geographic Information Systems (BGIS)</publish>
+						</pubinfo>
+						<onlink>none</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>unknown</srcscale>
+				<typesrc>electronic mail system</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1857</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>Ellis Island</srccitea>
+				<srccontr>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems data representing the New Jersey/New York boundary for Ellis Island delineated from an 1857 US Coast Survey Map.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>NJ Department of Environmental Protection (NJDEP), Office of Information Resources Management (OIRM), Bureau of Geographic Information Systems (BGIS)</origin>
+						<pubdate>20071114</pubdate>
+						<title>NJDEP Municipality Boundaries for the State of New Jersey</title>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Trenton, NJ</pubplace>
+							<publish>NJ Department of Environmental Protection (NJDEP), Office of Information Resources Management (OIRM), Bureau of Geographic Information Systems (BGIS)</publish>
+						</pubinfo>
+						<onlink>http://www.state.nj.us/dep/gis/digidownload/zips/statewide/stmun.zip</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates><begdate>1987</begdate><enddate>200801</enddate></rngdates></timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>NJDEP munis</srccitea>
+				<srccontr>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems municipal boundaries data digitized from various US Geological Survey topographic maps.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems hydro (stream) centerline data were used as a primary data source.  These data were derived from New Jersey Office of Information Technology, Office of Geographic Information Systems 2002 orthophotography (+/-4 feet).  Hydro centerlines were integrated where known to be coincident with municipal boundaries as shown on municipal tax maps.</procdesc>
+				<procdate>2007</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>8-5</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>New Jersey Department of Transportation road centerlines data were used as a primary data source.  These data were derived from New Jersey Office of Information Technology, Office of Geographic Information Systems 2002 orthophotography (+/-4 feet).  Road centerlines were integrated where known to be coincident with municipal boundaries as shown on municipal tax maps.</procdesc>
+				<procdate>2007</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>8-5</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>New Jersey Department of Environmental Protection, Green Acres Program open space boundary data were used as a primary data source.  These data were derived from Green Acres open space property surveys.  Survey boundaries were integrated where known to be coincident with municipal boundaries as shown on municipal tax maps.</procdesc>
+				<procdate>2007</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>8-5</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>New Jersey Department of Agriculture, State Agricultural Development Committee, Farmland Preservation Program preserved farmland boundary data were used as a primary data source.  These data were derived from Farmland Preservation preserved farmland property surveys.  Survey and non-survey (some municipal boundary lines were not mapped as survey lines) boundaries were integrated where known to be coincident with municipal boundaries as shown on municipal tax maps.</procdesc>
+				<procdate>2007</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>8-5</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems land use/landcover data were used as a primary data source.  These data were derived from New Jersey Office of Information Technology, Office of Geographic Information Systems 2002 orthophotography (+/-4 feet).  Land use/landcover delineations were used to represent municipal boundaries coincident with shorelines.</procdesc>
+				<procdate>2007</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>8-5</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>New Jersey Department of Environmental Protection, New Jersey Geological Survey boundary data for the northern border of New Jersey and through Shooters Island, off the shoreline of Bayonne, were used as primary data sources.  Survey points were used to delineate the New Jersey/New York boundary for the northern border of the state.  Turning points through the Kill Van Kull were used to delineate the New Jersey/New York boundary through Shooters Island.</procdesc>
+				<procdate>2007</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>8-5</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>Delaware Geological Survey boundary data for segments of the New Jersey/Delaware border were used as a primary data source.  Boundary, boundary monument, and boundary reference monument positions were calculated at the 1934 mean low water line along the New Jersey shoreline from descriptions in a 1934/1935 United States Supreme Court Decree.  These data were used to represent municipal boundaries coincident with shorelines as shown on municipal tax maps.</procdesc>
+				<procdate>2007</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>8-5</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems data representing the New Jersey/New York boundary for Ellis Island were used as a primary data source.  These data were delineated from an 1857 United States Coast Survey Map.</procdesc>
+				<procdate>2007</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>8-5</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>State-certified digital tax map data were used as a primary data source.  State-certified digital tax map data is presumed to have a higher level of accuracy than digital parcel data.  These data were used to delineate municipal boundaries where they could not be derived from other primary data sources.</procdesc>
+				<procdate>2008</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>8-5</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>Digital parcel data were used to delineate municipal boundaries where they could not be derived from primary data sources.</procdesc>
+				<procdate>2008</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>8-5</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>Data delineated to connect shorelines across the outlet of a river to a bay or the ocean, or across the outlet of a bay to the ocean were developed for the project.  These data were interpreted from New Jersey Office of Information Technology, Office of Geographic Information Systems 2002 orthophotography (+/-4 feet).  Outlet delineations were integrated where known to be coincident with municipal boundaries as shown on municipal tax maps.</procdesc>
+				<procdate>2008</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>8-5</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>Data delineated to represent the centerline of the Delaware River were developed for the project.  An inventory of Delaware River islands with state jurisdiction was developed from information in "The Story Of New Jersey's Civil Boundaries 1606 - 1968" by John F. Snyder, Bureau of Geology and Topography, Trenton, New Jersey, 1969.  Using this information, a delineation was generated to represent the centerline of the Delaware River from the New Jersey/New York border to the 12 mile circle at the New Jersey/Delaware border.  
+				
+The delineation of the centerline of the Delaware River was generated by manually digitizing the river's visible shorelines, interpreted from New Jersey Office of Information Technology, Office of Geographic Information Systems 2002 orthophotography (+/-4 feet).  A centerline was generated from the shorelines utilizing the DUAL COLLAPSE command in ArcGIS ArcInfo 9.2.  Using the automated centerline as a guide, the final delineation was manually digitized to provide a smoother, more visually suitable centerline.
+				
+The centerline of the Delaware River represents the boundary between New Jersey and Pennsylvania.  These data were used to represent municipal boundaries coincident with the river centerline as shown on municipal tax maps.</procdesc>
+				<procdate>2008</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>8-5</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>Data adjusted from original New Jersey Department of Transportation road centerlines, or delineated from railroad lines or other photo-identifiable features, interpreted from New Jersey Office of Information Technology, Office of Geographic Information Systems 2002 orthophotography (+/-4 feet) were developed for the project.  These data were integrated where known to be coincident with municipal boundaries as shown on municipal tax maps.</procdesc>
+				<procdate>2008</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>8-5</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems municipality boundaries (stmun) data digitized from various United States Geological Survey topographic maps were integrated where there was a lack of available or adequate alternative source information and data.</procdesc>
+				<procdate>2008</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>8-5</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep>
+				<procdesc>A QAQC process was undertaken with County GIS Coordinators to review the draft data and report linework needing modification.  All counties, except for Middlesex, participated in this process.  Modifications were made in several of the counties.  Consequently, all County GIS Coordinators were satisfied with the outcome.</procdesc>
+				<procdate>200804</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Civil Solutions</cntorg>
+							<cntper>Steve Eckhardt</cntper>
+						</cntorgp>
+						<cntpos>GIS Client Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>800 S White Horse Pike, PO Box 579</address>
+							<city>Hammonton</city>
+							<state>NJ</state>
+							<postal>08037-2019</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(800) 924-0482</cntvoice>
+						<cntfax>(609) 704-8011</cntfax>
+						<cntemail>seckh@arh-us.com</cntemail>
+						<hours>8-5</hours>
+					</cntinfo>
+				</proccont>
+				<procsv>ArcGIS ArcInfo 9.2</procsv></procstep>
+			<procstep><procdesc>Polygons were built from the NJOIT-OGIS Municipal Boundaries of New Jersey (nj_munis_arcs) line layer in ArcCatalog using the POLYGON FEATURE CLASS FROM LINES command with the default cluster tolerance of 0.003 US survey feet.  Municipalities with multiple disconnected areas were created as multi-part polygons.
+
+A spatial join was created with the centroids of the NJDEP municipality boundaries (stmun) layer as a quality control check.  An examination of the attribute table ensured that each polygon contained a single centroid and any errors were resolved.  A topology rule set was also built to ensure there were no gores (gaps) or overlaps between polygons.</procdesc><procsv>ArcGIS ArcInfo 9.2</procsv><procdate>200804</procdate><proccont><cntinfo><cntorgp><cntorg>Civil Solutions</cntorg><cntper>Stephen Eckhardt</cntper></cntorgp><cntpos>GIS Client Manager</cntpos><cntaddr><addrtype>mailing address</addrtype><address>800 S White Horse Pike, PO Box 579</address><city>Hammonton</city><state>New Jersey</state><postal>08037-2019</postal><country>USA</country></cntaddr><cntvoice>800-924-0482</cntvoice><cntfax>609-704-8011</cntfax><cntemail>seckh@arh-us.com</cntemail><hours>Monday-Friday  8:00 AM-5:00 PM</hours></cntinfo></proccont></procstep><srcinfo><srcscale>not applicable</srcscale><typesrc>online</typesrc><srctime><timeinfo><sngdate><caldate>200804</caldate></sngdate></timeinfo><srccurr>publication date</srccurr></srctime><srccitea>GNIS</srccitea><srccontr>United States Board on Geographic Names, United State Geological Survey GNIS civil codes and names</srccontr><srccite><citeinfo><origin>United States Board on Geographic Names, United State Geological Survey</origin><pubdate>200804</pubdate><title>Domestic Names - State and Topical Gazetteer Download Files</title><geoform>tabular digital data</geoform><pubinfo><pubplace>Reston, VA</pubplace><publish>United States Board on Geographic Names, United State Geological Survey</publish></pubinfo><onlink>http://geonames.usgs.gov/domestic/download_data.htm</onlink></citeinfo></srccite></srcinfo><procstep><procsv>ArcGIS ArcInfo 9.2</procsv><procdate>200804</procdate><procdesc>Attributes were added to the attribute table.  Values in the MUN_CODE field were populated based on the NJ1040 codes.  The ACRES and SQ_MILES fields were recalculated based on SHAPE_AREA.  In addition, POPDEN2000, POPDEN1990, and POPDEN1980 were recalculated based on the updated number of square miles in the SQ_MILES field.  All municipal name changes are current to January 2008.  Attributes for Geographical Naming Information System (GNIS) codes and names were thoroughly reviewed in collaboration with GNIS-US Geological Survey and US Census Bureau representatives.  No formal accuracy testing was performed to qualify or validate attribute data.  All other attribute information was carried over from the most current NJDEP municipality boundaries (stmun) data set and is assumed correct.</procdesc><proccont><cntinfo><cntorgp><cntorg>Civil Solutions</cntorg><cntper>Stephen Eckhardt</cntper></cntorgp><cntpos>GIS Client Manager</cntpos><cntaddr><addrtype>mailing address</addrtype><address>800 S White Horse Pike, PO Box 579</address><city>Hammonton</city><state>New Jersey</state><postal>08037-2019</postal><country>USA</country></cntaddr><cntvoice>800-924-0482</cntvoice><cntfax>609-704-8011</cntfax><cntemail>seckh@arh-us.com</cntemail><hours>Monday-Friday  8:00 AM-5:00 PM</hours></cntinfo></proccont></procstep><procstep><procsv>ArcGIS ArcInfo 9.2</procsv><procdate>20080627</procdate><proccont><cntinfo><cntorgp><cntorg>New Jersey Office of Information Technology (NJOIT) - Office of Geographic Information Systems (OGIS)</cntorg><cntper>Douglas M. Schleifer</cntper></cntorgp><cntpos>GIS Specialist</cntpos><cntvoice>(609) 984-7544</cntvoice><cntfax>(609) 633-0400</cntfax><cntemail>doug.schleifer@oit.state.nj.us</cntemail><cntaddr><addrtype>mailing address</addrtype><address>PO Box 212</address><city>Trenton</city><state>NJ</state><postal>08625-0212</postal><country>USA</country></cntaddr><hours>9-4</hours></cntinfo></proccont><procdesc>A null value polygon sliver measuring approximately 0.5 square feet was removed from Burlington County.  It is assumed this data artifact developed during processing the data set from lines (arcs) to polygons.  The data set was visually checked for possible additional slivers and none were found.</procdesc></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><procdate Sync="TRUE">20091012</procdate><proctime Sync="TRUE">17335700</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="stmun_2008">
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>566</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="stmun_2008"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">566</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000328</absres>
+						<ordres>0.000328</ordres>
+					</coordrep>
+					<plandu>survey feet</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Transverse Mercator</mapprojn><transmer><sfctrmer Sync="TRUE">0.999900</sfctrmer><longcm Sync="TRUE">-74.500000</longcm><latprjo Sync="TRUE">38.833333</latprjo><feast Sync="TRUE">492125.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></transmer></mapproj></planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn>GCS_North_American_1983</geogcsn><projcsn>NAD_1983_StatePlane_New_Jersey_FIPS_2900_Feet</projcsn></cordsysn></horizsys>
+		<vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">0.000100</altres></altsys></vertdef></spref>
+	<eainfo>
+		<detailed Name="stmun_2008">
+			<attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">POPDEN2000</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef>population density per square mile in 2000</attrdef><attrdefs>New Jersey Office of Information Technology, Office of Geographic Information Systems</attrdefs><attrdomv><udom>population density per square mile in 2000</udom></attrdomv></attr><attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">POPDEN1990</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">POPDEN1990</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef>population density per square mile in 1990</attrdef><attrdefs>New Jersey Office of Information Technology, Office of Geographic Information Systems</attrdefs><attrdomv><udom>population density per square mile in 1990</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">POPDEN1980</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">POPDEN1980</attrlabl><attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef>population density per square mile in 1980</attrdef><attrdefs>New Jersey Office of Information Technology, Office of Geographic Information Systems</attrdefs><attrdomv><udom>population density per square mile in 1980</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape_Area</attrlabl><attalias Sync="TRUE">MUN</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr><enttyp>
+				<enttypl>nj_munis</enttypl>
+				<enttypd>Municipalities of New Jersey</enttypd>
+				<enttypds>New Jersey Office of Information Technology (NJOIT) - Office of Geographic Information Systems (OGIS)</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">566</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">MUN</attrlabl><attalias Sync="TRUE">COUNTY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">28</attwidth><attrdef>municipality name (capital letters)</attrdef><attrdefs>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems</attrdefs><attrdomv><udom>municipality name (capital letters)</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">COUNTY</attrlabl><attalias Sync="TRUE">MUN_LABEL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><attrdef>county name (capital letters)</attrdef><attrdefs>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems</attrdefs><attrdomv><udom>county name (capital letters)</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">MUN_LABEL</attrlabl><attalias Sync="TRUE">MUN_TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">35</attwidth><attrdefs>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems</attrdefs><attrdef>municipality name (for labels)</attrdef><attrdomv><udom>municipality name (for labels)</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">MUN_TYPE</attrlabl><attalias Sync="TRUE">NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth><attrdef>municipality type</attrdef><attrdefs>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems</attrdefs><attrdomv><udom>municipality type</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">NAME</attrlabl><attalias Sync="TRUE">GNIS_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">40</attwidth><attrdef>municipality name (for labels - without municipality type for cities and towns)</attrdef><attrdefs>New Jersey Office of Information Technology, Office of Geographic Information Systems</attrdefs><attrdomv><udom>municipality name (for labels - without municipality type for cities and towns)</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">GNIS_NAME</attrlabl><attalias Sync="TRUE">GNIS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">35</attwidth><attrdef>municipality name (GNIS)</attrdef><attrdefs>Bureau of Geographic Names - United States Geological Survey</attrdefs><attrdomv><udom>municipality name (GNIS)</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">GNIS</attrlabl><attalias Sync="TRUE">SSN</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><attrdef>GNIS civil code</attrdef><attrdefs>Bureau of Geographic Names - United States Geological Survey</attrdefs><attrdomv><codesetd><codesetn>GNIS civil code</codesetn><codesets>Bureau of Geographic Names - United States Geological Survey</codesets></codesetd></attrdomv></attr><attr><attrlabl Sync="TRUE">SSN</attrlabl><attalias Sync="TRUE">MUN_CODE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>State Standard Numeric code</attrdef><attrdefs>New Jersey Department of Community Affairs</attrdefs><attrdomv><codesetd><codesetn>State Standard Numeric code</codesetn><codesets>New Jersey Department of Community Affairs</codesets></codesetd></attrdomv></attr><attr><attrlabl Sync="TRUE">MUN_CODE</attrlabl><attalias Sync="TRUE">KEY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>municipal code (NJ-1040)</attrdef><attrdefs>New Jersey Department of Treasury</attrdefs><attrdomv><codesetd><codesetn>municipal code (NJ-1040)</codesetn><codesets>New Jersey Department of Treasury</codesets></codesetd></attrdomv></attr><attr><attrlabl Sync="TRUE">KEY</attrlabl><attalias Sync="TRUE">ACRES</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><attrdef>Federal Information Processing Standard (FIPS) state+county+municipal code</attrdef><attrdefs>United State Census Bureau</attrdefs><attrdomv><codesetd><codesetn>Federal Information Processing Standard (FIPS) state+county+municipal code</codesetn><codesets>United State Census Bureau</codesets></codesetd></attrdomv></attr><attr><attrlabl Sync="TRUE">ACRES</attrlabl><attalias Sync="TRUE">SQ_MILES</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef>area of municipality in acres (calculated from square feet in attribute table)</attrdef><attrdefs>New Jersey Office of Information Technology, Office of Geographic Information Systems</attrdefs><attrdomv><rdom><rdommin>62.74</rdommin><rdommax>72371.50</rdommax><attrunit>acres</attrunit></rdom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">SQ_MILES</attrlabl><attalias Sync="TRUE">POP2000</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef>area of municipality in square miles (calculated from square feet in attribute table)</attrdef><attrdefs>New Jersey Office of Information Technology, Office of Geographic Information Systems</attrdefs><attrdomv><rdom><rdommin>0.09</rdommin><rdommax>113.08</rdommax><attrunit>square miles</attrunit></rdom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">POP2000</attrlabl><attalias Sync="TRUE">POP1990</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef>population in 2000</attrdef><attrdefs>United States Census Bureau</attrdefs><attrdomv><udom>population in 2000</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">POP1990</attrlabl><attalias Sync="TRUE">POP1980</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef>population in 1990</attrdef><attrdefs>United States Census Bureau</attrdefs><attrdomv><udom>population in 1990</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">POP1980</attrlabl><attalias Sync="TRUE">POPDEN2000</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef>population in 1980</attrdef><attrdefs>United States Census Bureau</attrdefs><attrdomv><udom>population in 1980</udom></attrdomv></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>New Jersey Office of Information Technology (NJOIT) - Office of Geographic Information Systems (OGIS)</cntorg>
+					<cntper>Douglas M. Schleifer</cntper>
+				</cntorgp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>PO Box 212</address>
+					<city>Trenton</city>
+					<state>NJ</state>
+					<postal>08625-0212</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(609) 984-7544</cntvoice>
+				<cntfax>(609) 633-0400</cntfax>
+				<cntemail>doug.schleifer@oit.state.nj.us</cntemail>
+				<hours>9-4</hours>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>Distribution Liability: The State of New Jersey provides this product "as is".  The State makes no guarantee or warranty concerning the accuracy of information contained in the data.  Also, the State makes no warranty, either expressed or implied, regarding the condition of the product or its fitness for any particular purpose.  The burden for determining fitness for use lies entirely with the user.  Although these data files have been processed successfully on computers at the State, no warranty is made by the State regarding the use of the data on any other system, nor does the fact of distribution constitute or imply such a warranty.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>Personal Geodatabase Feature Class</formname>
+					<formvern>ArcGIS 9.2</formvern>
+					<transize Sync="TRUE">8.850</transize><dssize Sync="TRUE">8.850</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://njgin.state.nj.us/oit/gis/download/nj_boundaries.mdb</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>none</fees>
+		</stdorder>
+		<techpreq>An ESRI desktop mapping client is required for use, such as ArcMap.</techpreq>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>20080522</caldate>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd>20080627</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>New Jersey Office of Information Technology (NJOIT) - Office of Geographic Information Systems (OGIS)</cntorg>
+					<cntper>Douglas M. Schleifer</cntper>
+				</cntorgp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>PO Box 212</address>
+					<city>Trenton</city>
+					<state>NJ</state>
+					<postal>08625-0212</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(609) 984-7544</cntvoice>
+				<cntfax>(609) 633-0400</cntfax>
+				<cntemail>doug.schleifer@oit.state.nj.us</cntemail>
+				<hours>9-4</hours>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metac>none</metac>
+		<metuc>none</metuc>
+		<metsi>
+			<metscs>NJGIN</metscs>
+			<metsc>Public</metsc>
+			<metshd>no special handling required</metshd>
+		</metsi>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20091012</CreaDate><CreaTime>17335700</CreaTime><SyncOnce>FALSE</SyncOnce><ModDate>20090915</ModDate><ModTime>17345100</ModTime><SyncDate>20090915</SyncDate><SyncTime>17345100</SyncTime><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20090120" Time="140326">FeatureClassToFeatureClass S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis S:\ArcGISclass\nj stmun_2.shp # "MUN 'MUN' true true false 28 Text 0 0 ,First,#,S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis,MUN,-1,-1;COUNTY 'COUNTY' true true false 10 Text 0 0 ,First,#,S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis,COUNTY,-1,-1;MUN_LABEL 'MUN_LABEL' true true false 35 Text 0 0 ,First,#,S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis,MUN_LABEL,-1,-1;MUN_TYPE 'MUN_TYPE' true true false 12 Text 0 0 ,First,#,S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis,MUN_TYPE,-1,-1;NAME 'NAME' true true false 40 Text 0 0 ,First,#,S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis,NAME,-1,-1;GNIS_NAME 'GNIS_NAME' true true false 35 Text 0 0 ,First,#,S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis,GNIS_NAME,-1,-1;GNIS 'GNIS' true true false 8 Text 0 0 ,First,#,S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis,GNIS,-1,-1;SSN 'SSN' true true false 4 Text 0 0 ,First,#,S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis,SSN,-1,-1;MUN_CODE 'MUN_CODE' true true false 4 Text 0 0 ,First,#,S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis,MUN_CODE,-1,-1;KEY 'KEY' true true false 10 Text 0 0 ,First,#,S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis,KEY,-1,-1;ACRES 'ACRES' true true false 8 Double 0 0 ,First,#,S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis,ACRES,-1,-1;SQ_MILES 'SQ_MILES' true true false 8 Double 0 0 ,First,#,S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis,SQ_MILES,-1,-1;POP2000 'POP2000' true true false 4 Long 0 0 ,First,#,S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis,POP2000,-1,-1;POP1990 'POP1990' true true false 4 Long 0 0 ,First,#,S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis,POP1990,-1,-1;POP1980 'POP1980' true true false 4 Long 0 0 ,First,#,S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis,POP1980,-1,-1;POPDEN2000 'POPDEN2000' true true false 4 Long 0 0 ,First,#,S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis,POPDEN2000,-1,-1;POPDEN1990 'POPDEN1990' true true false 4 Long 0 0 ,First,#,S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis,POPDEN1990,-1,-1;POPDEN1980 'POPDEN1980' true true false 4 Long 0 0 ,First,#,S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis,POPDEN1980,-1,-1;Shape_Leng 'Shape_Length' false true true 8 Double 0 0 ,First,#,S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis,Shape_Length,-1,-1;Shape_Area 'Shape_Area' false true true 8 Double 0 0 ,First,#,S:\ArcGISclass\nj\nj_boundaries.mdb\nj_munis,Shape_Area,-1,-1" # S:\ArcGISclass\nj\stmun_2.shp</Process></lineage></DataProperties><MetaID>{E7EEE460-736E-44BA-8839-D60790ACF8CF}</MetaID></Esri><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">8.850</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">stmun_2008</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">193684.745025</westBL><eastBL Sync="TRUE">657059.678181</eastBL><northBL Sync="TRUE">919549.443276</northBL><southBL Sync="TRUE">34945.754154</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-75.587089</westBL><eastBL Sync="TRUE">-73.899178</eastBL><northBL Sync="TRUE">41.357794</northBL><southBL Sync="TRUE">38.924577</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_StatePlane_New_Jersey_FIPS_2900_Feet</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="stmun_2008"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">566</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20090915</mdDateSt></metadata>
