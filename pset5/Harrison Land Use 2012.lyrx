@@ -1,0 +1,1364 @@
+{
+  "type" : "CIMLayerDocument",
+  "version" : "3.1.0",
+  "build" : 41833,
+  "layers" : [
+    "CIMPATH=map1/harrisonlu20152.json"
+  ],
+  "layerDefinitions" : [
+    {
+      "type" : "CIMFeatureLayer",
+      "name" : "Harrison Land Use 2012",
+      "uRI" : "CIMPATH=map1/harrisonlu20152.json",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "useSourceMetadata" : true,
+      "description" : "HarrisonLU2015",
+      "layerElevation" : {
+        "type" : "CIMLayerElevationSurface",
+        "elevationSurfaceLayerURI" : "CIMPATH=Map1/952a3afec72549d6a1cf310f2488897a.json"
+      },
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : true,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "autoGenerateFeatureTemplates" : true,
+      "featureElevationExpression" : "0",
+      "featureTable" : {
+        "type" : "CIMFeatureTable",
+        "displayField" : "GNIS_NAME",
+        "editable" : true,
+        "dataConnection" : {
+          "type" : "CIMStandardDataConnection",
+          "workspaceConnectionString" : "DATABASE=.\\commondata\\pset5.gdb",
+          "workspaceFactory" : "FileGDB",
+          "dataset" : "HarrisonLU2015",
+          "datasetType" : "esriDTFeatureClass"
+        },
+        "studyAreaSpatialRel" : "esriSpatialRelUndefined",
+        "searchOrder" : "esriSearchOrderSpatial"
+      },
+      "htmlPopupEnabled" : true,
+      "selectable" : true,
+      "featureCacheType" : "Session",
+      "displayFiltersType" : "ByScale",
+      "featureBlendingMode" : "Alpha",
+      "labelClasses" : [
+        {
+          "type" : "CIMLabelClass",
+          "expressionTitle" : "Custom",
+          "expression" : "$feature.GNIS_NAME",
+          "expressionEngine" : "Arcade",
+          "featuresToLabel" : "AllVisibleFeatures",
+          "maplexLabelPlacementProperties" : {
+            "type" : "CIMMaplexLabelPlacementProperties",
+            "featureType" : "Polygon",
+            "avoidPolygonHoles" : true,
+            "canOverrunFeature" : true,
+            "canPlaceLabelOutsidePolygon" : true,
+            "canRemoveOverlappingLabel" : true,
+            "canStackLabel" : true,
+            "centerLabelAnchorType" : "Symbol",
+            "connectionType" : "Unambiguous",
+            "constrainOffset" : "NoConstraint",
+            "contourAlignmentType" : "Page",
+            "contourLadderType" : "Straight",
+            "contourMaximumAngle" : 90,
+            "enableConnection" : true,
+            "featureWeight" : 0,
+            "fontHeightReductionLimit" : 4,
+            "fontHeightReductionStep" : 0.5,
+            "fontWidthReductionLimit" : 90,
+            "fontWidthReductionStep" : 5,
+            "graticuleAlignmentType" : "Straight",
+            "keyNumberGroupName" : "Default",
+            "labelBuffer" : 15,
+            "labelLargestPolygon" : true,
+            "labelPriority" : -1,
+            "labelStackingProperties" : {
+              "type" : "CIMMaplexLabelStackingProperties",
+              "stackAlignment" : "ChooseBest",
+              "maximumNumberOfLines" : 3,
+              "minimumNumberOfCharsPerLine" : 3,
+              "maximumNumberOfCharsPerLine" : 24,
+              "separators" : [
+                {
+                  "type" : "CIMMaplexStackingSeparator",
+                  "separator" : " ",
+                  "splitAfter" : true
+                },
+                {
+                  "type" : "CIMMaplexStackingSeparator",
+                  "separator" : ",",
+                  "visible" : true,
+                  "splitAfter" : true
+                }
+              ],
+              "trimStackingSeparators" : true
+            },
+            "lineFeatureType" : "General",
+            "linePlacementMethod" : "OffsetCurvedFromLine",
+            "maximumLabelOverrun" : 80,
+            "maximumLabelOverrunUnit" : "Point",
+            "minimumFeatureSizeUnit" : "Map",
+            "multiPartOption" : "OneLabelPerPart",
+            "offsetAlongLineProperties" : {
+              "type" : "CIMMaplexOffsetAlongLineProperties",
+              "placementMethod" : "BestPositionAlongLine",
+              "labelAnchorPoint" : "CenterOfLabel",
+              "distanceUnit" : "Percentage",
+              "useLineDirection" : true
+            },
+            "pointExternalZonePriorities" : {
+              "type" : "CIMMaplexExternalZonePriorities",
+              "aboveLeft" : 4,
+              "aboveCenter" : 2,
+              "aboveRight" : 1,
+              "centerRight" : 3,
+              "belowRight" : 5,
+              "belowCenter" : 7,
+              "belowLeft" : 8,
+              "centerLeft" : 6
+            },
+            "pointPlacementMethod" : "AroundPoint",
+            "polygonAnchorPointType" : "GeometricCenter",
+            "polygonBoundaryWeight" : 0,
+            "polygonExternalZones" : {
+              "type" : "CIMMaplexExternalZonePriorities",
+              "aboveLeft" : 4,
+              "aboveCenter" : 2,
+              "aboveRight" : 1,
+              "centerRight" : 3,
+              "belowRight" : 5,
+              "belowCenter" : 7,
+              "belowLeft" : 8,
+              "centerLeft" : 6
+            },
+            "polygonFeatureType" : "General",
+            "polygonInternalZones" : {
+              "type" : "CIMMaplexInternalZonePriorities",
+              "center" : 1
+            },
+            "polygonPlacementMethod" : "HorizontalInPolygon",
+            "primaryOffset" : 1,
+            "primaryOffsetUnit" : "Point",
+            "removeAmbiguousLabels" : "All",
+            "removeExtraWhiteSpace" : true,
+            "repetitionIntervalUnit" : "Point",
+            "rotationProperties" : {
+              "type" : "CIMMaplexRotationProperties",
+              "rotationType" : "Arithmetic",
+              "alignmentType" : "Straight"
+            },
+            "secondaryOffset" : 100,
+            "secondaryOffsetUnit" : "Percentage",
+            "strategyPriorities" : {
+              "type" : "CIMMaplexStrategyPriorities",
+              "stacking" : 1,
+              "overrun" : 2,
+              "fontCompression" : 3,
+              "fontReduction" : 4,
+              "abbreviation" : 5
+            },
+            "thinningDistanceUnit" : "Point",
+            "truncationMarkerCharacter" : ".",
+            "truncationMinimumLength" : 1,
+            "truncationPreferredCharacters" : "aeiou",
+            "truncationExcludedCharacters" : "0123456789",
+            "polygonAnchorPointPerimeterInsetUnit" : "Point"
+          },
+          "name" : "Class 1",
+          "priority" : -1,
+          "standardLabelPlacementProperties" : {
+            "type" : "CIMStandardLabelPlacementProperties",
+            "featureType" : "Line",
+            "featureWeight" : "None",
+            "labelWeight" : "High",
+            "numLabelsOption" : "OneLabelPerName",
+            "lineLabelPosition" : {
+              "type" : "CIMStandardLineLabelPosition",
+              "above" : true,
+              "inLine" : true,
+              "parallel" : true
+            },
+            "lineLabelPriorities" : {
+              "type" : "CIMStandardLineLabelPriorities",
+              "aboveStart" : 3,
+              "aboveAlong" : 3,
+              "aboveEnd" : 3,
+              "centerStart" : 3,
+              "centerAlong" : 3,
+              "centerEnd" : 3,
+              "belowStart" : 3,
+              "belowAlong" : 3,
+              "belowEnd" : 3
+            },
+            "pointPlacementMethod" : "AroundPoint",
+            "pointPlacementPriorities" : {
+              "type" : "CIMStandardPointPlacementPriorities",
+              "aboveLeft" : 2,
+              "aboveCenter" : 2,
+              "aboveRight" : 1,
+              "centerLeft" : 3,
+              "centerRight" : 2,
+              "belowLeft" : 3,
+              "belowCenter" : 3,
+              "belowRight" : 2
+            },
+            "rotationType" : "Arithmetic",
+            "polygonPlacementMethod" : "AlwaysHorizontal"
+          },
+          "textSymbol" : {
+            "type" : "CIMSymbolReference",
+            "symbol" : {
+              "type" : "CIMTextSymbol",
+              "blockProgression" : "TTB",
+              "depth3D" : 1,
+              "extrapolateBaselines" : true,
+              "fontEffects" : "Normal",
+              "fontEncoding" : "Unicode",
+              "fontFamilyName" : "Tahoma",
+              "fontStyleName" : "Regular",
+              "fontType" : "Unspecified",
+              "haloSize" : 1,
+              "height" : 10,
+              "hinting" : "Default",
+              "horizontalAlignment" : "Left",
+              "kerning" : true,
+              "letterWidth" : 100,
+              "ligatures" : true,
+              "lineGapType" : "ExtraLeading",
+              "symbol" : {
+                "type" : "CIMPolygonSymbol",
+                "symbolLayers" : [
+                  {
+                    "type" : "CIMSolidFill",
+                    "enable" : true,
+                    "color" : {
+                      "type" : "CIMRGBColor",
+                      "values" : [
+                        0,
+                        0,
+                        0,
+                        100
+                      ]
+                    }
+                  }
+                ],
+                "angleAlignment" : "Map"
+              },
+              "textCase" : "Normal",
+              "textDirection" : "LTR",
+              "verticalAlignment" : "Bottom",
+              "verticalGlyphOrientation" : "Right",
+              "wordSpacing" : 100,
+              "billboardMode3D" : "FaceNearPlane"
+            }
+          },
+          "useCodedValue" : true,
+          "visibility" : true,
+          "iD" : -1
+        }
+      ],
+      "renderer" : {
+        "type" : "CIMUniqueValueRenderer",
+        "sampleSize" : 10000,
+        "colorRamp" : {
+          "type" : "CIMRandomHSVColorRamp",
+          "colorSpace" : {
+            "type" : "CIMICCColorSpace",
+            "url" : "Default RGB"
+          },
+          "maxH" : 360,
+          "minS" : 15,
+          "maxS" : 30,
+          "minV" : 99,
+          "maxV" : 100,
+          "minAlpha" : 100,
+          "maxAlpha" : 100
+        },
+        "defaultLabel" : "<all other values>",
+        "defaultSymbol" : {
+          "type" : "CIMSymbolReference",
+          "symbol" : {
+            "type" : "CIMPolygonSymbol",
+            "symbolLayers" : [
+              {
+                "type" : "CIMSolidStroke",
+                "enable" : true,
+                "capStyle" : "Round",
+                "joinStyle" : "Round",
+                "lineStyle3D" : "Strip",
+                "miterLimit" : 10,
+                "width" : 0.69999999999999996,
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    110,
+                    110,
+                    110,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMSolidFill",
+                "enable" : true,
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    130,
+                    130,
+                    130,
+                    100
+                  ]
+                }
+              }
+            ],
+            "angleAlignment" : "Map"
+          }
+        },
+        "defaultSymbolPatch" : "Default",
+        "fields" : [
+          "LU12",
+          "LABEL12"
+        ],
+        "groups" : [
+          {
+            "type" : "CIMUniqueValueGroup",
+            "classes" : [
+              {
+                "type" : "CIMUniqueValueClass",
+                "editable" : true,
+                "label" : "Residential",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            0,
+                            0,
+                            0,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            255,
+                            255,
+                            190,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "1110",
+                      "RESIDENTIAL, HIGH DENSITY OR MULTIPLE DWELLING"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "1120",
+                      "RESIDENTIAL, SINGLE UNIT, MEDIUM DENSITY"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "1130",
+                      "RESIDENTIAL, SINGLE UNIT, LOW DENSITY"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "1140",
+                      "RESIDENTIAL, RURAL, SINGLE UNIT"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Commercial",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.75,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            153,
+                            153,
+                            153,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            237,
+                            81,
+                            81,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "1200",
+                      "COMMERCIAL/SERVICES"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "editable" : true,
+                "label" : "Urban/mixed use",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            231,
+                            216,
+                            240,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "1600",
+                      "MIXED URBAN OR BUILT-UP LAND"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "1700",
+                      "OTHER URBAN OR BUILT-UP LAND"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "editable" : true,
+                "label" : "Roads and bridges",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMPictureFill",
+                        "enable" : true,
+                        "url" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a\nHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy\nMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAEAAQADASIA\nAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA\nAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3\nODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm\np6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA\nAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx\nBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK\nU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3\nuLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBsQjkW\nSRgpK/MpJ69gKaxR2VyyBiAGkRsgH3olMfnCNMlm4wF4x6mopmR1AXEewZO3gH61JQ+dMvG4VA3P\nIPU04AK7h1A5A5GR+NK1vDNGA5Bxkgqcduc0kZVotzpuxwpB6e9ACGIMpWNlUHOMNzT9mQIUjJ4H\nzhsA+ppkH71nlI37DhjngEe341IAyy+cc7Au3B6D6CgCGZXEqhNuwHIGeoHWpd4RvLnQlR8yhjnk\n+9RtJvDTOCSvA46D1pSDNE9w+QoHyj0oASZY2PzMNific+nvT0vEZwQAoi5JHqaY7I8XnBXXGSgP\n8XuKhkVkjEgI+fqMcZIxQBYbb5rTpkybssB0wKj3S+dIwiG3HQndn3p5U7FjH7t2ADjA49Dmmqh3\n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\nGyW3DkUAf//Z",
+                        "scaleX" : 1,
+                        "height" : 0.59999999999999998,
+                        "textureFilter" : "Text",
+                        "tintColor" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            255,
+                            255,
+                            255,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "1410",
+                      "MAJOR ROADWAY"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "1400",
+                      "TRANSPORTATION/COMMUNICATION/UTILITIES"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "1419",
+                      "BRIDGE OVER WATER"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "editable" : true,
+                "label" : "Water bodies",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            0,
+                            0,
+                            0,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            0,
+                            197,
+                            255,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "5100",
+                      "STREAMS AND CANALS"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "5200",
+                      "NATURAL LAKES"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "5300",
+                      "ARTIFICIAL LAKES"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "editable" : true,
+                "label" : "Wetlands",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            151,
+                            219,
+                            242,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "7430",
+                      "DISTURBED WETLANDS (MODIFIED)"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "6210",
+                      "DECIDUOUS WOODED WETLANDS"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "6231",
+                      "DECIDUOUS SCRUB/SHRUB WETLANDS"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "6232",
+                      "CONIFEROUS SCRUB/SHRUB WETLANDS"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "6233",
+                      "MIXED SCRUB/SHRUB WETLANDS (DECIDUOUS DOM.)"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "6234",
+                      "MIXED SCRUB/SHRUB WETLANDS (CONIFEROUS DOM.)"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "6240",
+                      "HERBACEOUS WETLANDS"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "6241",
+                      "PHRAGMITES DOMINATE INTERIOR WETLANDS"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "6251",
+                      "MIXED WOODED WETLANDS (DECIDUOUS DOM.)"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "1750",
+                      "MANAGED WETLAND IN MAINTAINED LAWN GREENSPACE"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "1499",
+                      "STORMWATER BASIN"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "1461",
+                      "WETLAND RIGHTS-OF-WAY"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "1850",
+                      "MANAGED WETLAND IN BUILT-UP MAINTAINED REC AREA"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "editable" : true,
+                "label" : "Recreational",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMPictureFill",
+                        "enable" : true,
+                        "url" : "data:image/bmp;base64,Qk3+AwAAAAAAAD4AAAAoAAAAUAAAAFAAAAABAAEAAAAAAMADAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAP///wD/3vP/97zP/3vMAADz/Uf8/1H/z/UfAAAH/18B/9fwH/1/AAAP//+D///IP//8AACf//+n\n///6f///AADwdeP8HXj/wdePAAD4slf+LJX/4slfAAD+/E//vxP/+/E/AAAf/78H/+/wf/7/AAAv\n/+CL//gYv/+BAAC+/PXvvz1++/PXAAD8Rf//EX//8Rf/AAD+w///sP//+w//AAD/p///6f///p//\nAAD//0P//9D///0PAAC9/6/vf+v+9/6/AABB///Qf//9B///AACH//Hh//x+H//HAAD/99L//fSP\n/99IAAD/9Dz//Q8P/9DwAADwOv/8Dr/vwOv+AAD6///+v///6///AAAH/8/B//PcH/89AACL/9Di\n//Q+L/9DAADv/+v7//r/v/+vAAD/////////////AADj5//4+f//j5//AADwL//8C///wL//AAD8\nX/7/F/+P8X/4AAD/veb/73mP/veYAADn+o/5/qP/n+o/AAAP/r8D/6/wP/r/AAAf//4H//+Af//4\nAAA///9P///k///+AADg68f4OvH/g68fAADxZK/8WSv/xZK/AAD9+J//fif/9+J/AAA//38P/9/w\n//3/AABf/8AX//Axf/8DAAB9+evffnr99+evAAD4i//+Iv/v4i/+AAD9h///Yf//9h/+AAD/T///\n0////T/+AAD//of//6H///ofAAB7/1/e/9f97/1/AACD//+g///6D///AAAP/+PD//j8P/+PAAD/\n76T/++kP/76QAAD/6Hj/+h4P/6HgAADgdf/4HX/fgdf9AAD1///9f///1///AAAP/56D/+e4P/57\nAAAX/6HF/+h8X/6HAADf/9f3//X/f/9fAADx8/98fP/3x8//AAD4F//+Bf//4F//AAD+L///i//P\n+L/8AAD/3vP/97zP/3vMAADz/Uf8/1H/z/UfAAAH/18B/9fwH/1/AAAP//+D///IP//8AACf//+n\n///6f///AADwdeP8HXj/wdePAAD4slf+LJX/4slfAAD+/E//vxP/+/E/AAAf/78H/+/wf/7/AAAv\n/+CL//gYv/+BAAC+/PXvvz1++/PXAAD8Rf//EX//8Rf/AAD+w///sP//+w//AAD/p///6f///p//\nAAD//0P//9D///0PAAC9/6/vf+v+9/6/AABB///Qf//9B///AACH//Hh//x+H//HAAD/99L//fSP\n/99IAAD/9Dz//Q8P/9DwAADwOv/8Dr/vwOv+AAD6///+v///6///AACL/9Di//Q+L/9DAAA=",
+                        "scaleX" : 1,
+                        "height" : 60,
+                        "textureFilter" : "Draft",
+                        "colorSubstitutions" : [
+                          {
+                            "type" : "CIMColorSubstitution",
+                            "oldColor" : {
+                              "type" : "CIMRGBColor",
+                              "values" : [
+                                0,
+                                0,
+                                0,
+                                100
+                              ]
+                            },
+                            "newColor" : {
+                              "type" : "CIMRGBColor",
+                              "values" : [
+                                158,
+                                179,
+                                125,
+                                100
+                              ]
+                            }
+                          },
+                          {
+                            "type" : "CIMColorSubstitution",
+                            "oldColor" : {
+                              "type" : "CIMRGBColor",
+                              "values" : [
+                                255,
+                                255,
+                                255,
+                                100
+                              ]
+                            },
+                            "newColor" : {
+                              "type" : "CIMRGBColor",
+                              "values" : [
+                                204,
+                                230,
+                                161,
+                                100
+                              ]
+                            }
+                          }
+                        ],
+                        "tintColor" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            255,
+                            255,
+                            255,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "1710",
+                      "CEMETERY"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "1800",
+                      "RECREATIONAL LAND"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "1804",
+                      "ATHLETIC FIELDS (SCHOOLS)"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "editable" : true,
+                "label" : "Agricultural",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            115,
+                            178,
+                            115,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "2100",
+                      "CROPLAND AND PASTURELAND"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "2400",
+                      "OTHER AGRICULTURE"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "2300",
+                      "CONFINED FEEDING OPERATIONS"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "4230",
+                      "PLANTATION"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "2140",
+                      "AGRICULTURAL WETLANDS (MODIFIED)"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "2200",
+                      "ORCHARDS/VINEYARDS/NURSERIES/HORTICULTURAL AREAS"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "editable" : true,
+                "label" : "Shrubs",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            191,
+                            217,
+                            153,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "2150",
+                      "FORMER AGRICULTURAL WETLAND (BECOMING SHRUBBY, NOT BUILT-UP)"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "4420",
+                      "DECIDUOUS BRUSH/SHRUBLAND"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "4430",
+                      "CONIFEROUS BRUSH/SHRUBLAND"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "4440",
+                      "MIXED DECIDUOUS/CONIFEROUS BRUSH/SHRUBLAND"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "editable" : true,
+                "label" : "Old fields/undeveloped",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            0,
+                            0,
+                            0,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            245,
+                            202,
+                            122,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "1463",
+                      "UPLAND RIGHTS-OF-WAY UNDEVELOPED"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "4410",
+                      "OLD FIELD (< 25% BRUSH COVERED)"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "4411",
+                      "PHRAGMITES DOMINATE OLD FIELD"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "editable" : true,
+                "label" : "Industrial/altered",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            204,
+                            204,
+                            195,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "1300",
+                      "INDUSTRIAL"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "7400",
+                      "ALTERED LANDS"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "editable" : true,
+                "label" : "Forest",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            0,
+                            0,
+                            0,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            101,
+                            168,
+                            67,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "4110",
+                      "DECIDUOUS FOREST (10-50% CROWN CLOSURE)"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "4120",
+                      "DECIDUOUS FOREST (>50% CROWN CLOSURE)"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "4210",
+                      "CONIFEROUS FOREST (10-50% CROWN CLOSURE)"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "4220",
+                      "CONIFEROUS FOREST (>50% CROWN CLOSURE)"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "4311",
+                      "MIXED FOREST (>50% CONIFEROUS WITH 10-50% CROWN CLOSURE)"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "4312",
+                      "MIXED FOREST (>50% CONIFEROUS WITH >50% CROWN CLOSURE)"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "4321",
+                      "MIXED FOREST (>50% DECIDUOUS WITH 10-50% CROWN CLOSURE)"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "4322",
+                      "MIXED FOREST (>50% DECIDUOUS WITH >50% CROWN CLOSURE)"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Transitional",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            0,
+                            0,
+                            0,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMHatchFill",
+                        "enable" : true,
+                        "lineSymbol" : {
+                          "type" : "CIMLineSymbol",
+                          "symbolLayers" : [
+                            {
+                              "type" : "CIMSolidStroke",
+                              "enable" : true,
+                              "capStyle" : "Butt",
+                              "joinStyle" : "Miter",
+                              "lineStyle3D" : "Strip",
+                              "miterLimit" : 10,
+                              "width" : 0.5,
+                              "color" : {
+                                "type" : "CIMRGBColor",
+                                "values" : [
+                                  0,
+                                  0,
+                                  0,
+                                  100
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "rotation" : 135,
+                        "separation" : 5
+                      },
+                      {
+                        "type" : "CIMHatchFill",
+                        "enable" : true,
+                        "lineSymbol" : {
+                          "type" : "CIMLineSymbol",
+                          "symbolLayers" : [
+                            {
+                              "type" : "CIMSolidStroke",
+                              "enable" : true,
+                              "capStyle" : "Butt",
+                              "joinStyle" : "Miter",
+                              "lineStyle3D" : "Strip",
+                              "miterLimit" : 10,
+                              "width" : 0.5,
+                              "color" : {
+                                "type" : "CIMRGBColor",
+                                "values" : [
+                                  0,
+                                  0,
+                                  0,
+                                  100
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "rotation" : 45,
+                        "separation" : 5
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "7500",
+                      "TRANSITIONAL AREAS"
+                    ]
+                  }
+                ],
+                "visible" : true
+              }
+            ],
+            "heading" : "LU12,LABEL12"
+          }
+        ],
+        "polygonSymbolColorTarget" : "Fill"
+      },
+      "scaleSymbols" : true,
+      "snappable" : true,
+      "symbolLayerDrawing" : {
+        "type" : "CIMSymbolLayerDrawing"
+      }
+    }
+  ],
+  "rGBColorProfile" : "sRGB IEC61966-2.1",
+  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2",
+  "elevationSurfaceLayerDefinitions" : [
+    {
+      "type" : "CIMElevationSurfaceLayer",
+      "name" : "Ground",
+      "uRI" : "CIMPATH=Map1/952a3afec72549d6a1cf310f2488897a.json",
+      "useSourceMetadata" : true,
+      "description" : "Ground",
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : false,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "elevationMode" : "BaseGlobeSurface",
+      "verticalExaggeration" : 1,
+      "color" : {
+        "type" : "CIMRGBColor",
+        "values" : [
+          255,
+          255,
+          255,
+          100
+        ]
+      },
+      "surfaceTINShadingMode" : "Smooth"
+    }
+  ]
+}
